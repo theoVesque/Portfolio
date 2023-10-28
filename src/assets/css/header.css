@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Rubik:wght@600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap");
+
+body {
+  background-image: url(../images/background.jpg);
+  padding: 5vw;
+}
+
+/* Menu */
+#menu {
+  position: fixed;
+  bottom: 0;
+}
+
+#menu ul {
+  width: 100vw;
+  margin-bottom: 3vw;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Rubik", sans-serif;
+}
+
+#menu li {
+  background-color: #e6e6e6;
+  margin-right: 10px;
+  padding: 0.5%;
+  border-radius: 0.5vw;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #0e0e0e;
+}
+
+/* Cursor */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  #cursor {
+    z-index: 99;
+    position: fixed;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    will-change: transform;
+  }
+
+  #cursor .cursor--inner {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 2px #ffde6a;
+  }
+}
