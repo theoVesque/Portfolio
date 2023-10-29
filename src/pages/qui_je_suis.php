@@ -66,8 +66,8 @@
         </div>
 
         <div class="competences">
-            <h1 class="titre_competences">Back-End</h1>
-            <hr class="sep2" />
+            <h1 class="titre_competences">Autres compétences</h1>
+            <hr class="sep3" />
             <div class="competences_div">
                 <div class="competence-item">
                     <i class="devicon-figma-plain"></i>
