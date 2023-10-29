@@ -12,7 +12,6 @@
 
 <body>
     <h1 id="titre">Théo Vesque</h1>
-    <hr class="sep" />
     <div id=textBio_CV>
         <p id="text_bio">
             Je suis actuellement en 3ème année de mon cursus en BUT Informatique à l’Université Polytechnique des Hauts-de-France (UPHF). Cette formation m'a permis d'acquérir un large éventail de <a href="#competences" id="lien_projets_text_bio">compétences</a>, tant dans le domaine du développement Web que du développement logiciel, et je vous invite à découvrir la liste des technologies que je maîtrise dans la section ci-dessous.

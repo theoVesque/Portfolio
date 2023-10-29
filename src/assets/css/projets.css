@@ -1,0 +1,55 @@
+#titre,
+#button_projet_personnels,
+#button_projet_scolaires {
+  font-family: "Rubik", sans-serif;
+}
+
+#titre {
+  color: #e6e6e6;
+  font-size: 64px;
+}
+
+.sep {
+  border: 0;
+  width: 7em;
+  height: 3px;
+  margin: 1em 0;
+  margin-top: -2%;
+  background-color: var(--jaune);
+}
+
+#div_button_projets {
+  margin-top: 10vh;
+}
+
+#button_projet_personnels,
+#button_projet_scolaires {
+  border: none;
+  width: 38.9%;
+  padding: 1%;
+  border-radius: 1vw;
+  margin-right: 2%;
+  font-size: 24px;
+}
+
+#button_projet_personnels.selected {
+  background-color: var(--jaune);
+}
+
+#button_projet_scolaires.selected {
+  background-color: var(--jaune);
+}
+
+#button_projet_personnels.not-selected {
+  background-color: white;
+}
+
+#button_projet_scolaires.not-selected {
+  background-color: white;
+}
+
+#personnels,
+#scolaires {
+  width: 80%;
+  background-color: var(--blanc);
+}
