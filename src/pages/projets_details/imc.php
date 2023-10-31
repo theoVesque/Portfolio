@@ -5,14 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Théo Vesque - Projets - Calculateur d'IMC</title>
-    <link rel="stylesheet" href="/src/assets/css/gen.css">
     <link rel="stylesheet" href="/src/assets/css/projets_details.css">
+    <link rel="stylesheet" href="/src/assets/css/gen.css">
     <script defer src="/src/assets/js/projets_details.js"></script>
 </head>
 
 <body>
-    <h1 id="titre">Site de Calculateur d'IMC</h1>
-    <hr class="sep" />
+    <div id="div_titre_boutonFermer">
+        <div>
+            <h1 id="titre">Site de Calculateur d'IMC</h1>
+            <hr class="sep" />
+        </div>
+        <form action="/src/pages/projets.php">
+            <button type=" submit" type="button" class="btn-close">
+                <span class="icon-cross"></span>
+            </button>
+        </form>
+    </div>
     <div id=textBio_CV>
         <p id="text_bio"> La principale mission de ce site est de fournir une application web simple et efficace pour calculer l'Indice de Masse Corporelle (IMC) en fonction du poids et de la taille de l'utilisateur. La création de cette plateforme a été une étape clé dans mon parcours de développement, car elle m'a permis d'approfondir mes compétences en programmation JavaScript. Pour plus de détails, vous pouvez explorer la galerie d'images ci-dessous ou accéder directement au site via le lien fourni.</p>
     </div>

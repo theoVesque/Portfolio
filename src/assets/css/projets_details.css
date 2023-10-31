@@ -1,3 +1,11 @@
+#div_titre_boutonFermer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
 sep {
   width: 15em;
 }
@@ -74,4 +82,87 @@ carousel input[type="radio"] {
 carousel input[type="radio"]:checked + label {
   background-color: var(--jaune);
   color: var(--noir);
+}
+
+/* Bouton fermer */
+.btn-close {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background: var(--jaune);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 150ms;
+}
+.btn-close .icon-cross {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.btn-close .icon-cross:before,
+.btn-close .icon-cross:after {
+  content: "";
+  position: absolute;
+  top: 17px;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: var(--noir);
+  border-radius: 6px;
+}
+.btn-close .icon-cross:before {
+  transform: rotate(45deg);
+}
+.btn-close .icon-cross:after {
+  transform: rotate(-45deg);
+}
+.btn-close .icon-cross span {
+  display: block;
+}
+.btn-close:hover,
+.btn-close:focus {
+  transform: rotateZ(90deg);
+  background: var(--jaune);
+}
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1800px) {
+  carousel page {
+    margin-top: 50vh;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  carousel page {
+    margin-top: 80vh;
+  }
+}
+
+@media screen and (max-width: 728px) {
+  #div_titre_boutonFermer {
+    flex-direction: column-reverse;
+    align-items: start;
+  }
+
+  carousel page {
+    margin-top: 130vh;
+  }
 }

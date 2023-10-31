@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Théo Vesque - Qui je suis ?</title>
     <link rel="stylesheet" href="/src/assets/css/qui_je_suis.css">
+    <link rel="stylesheet" href="/src/assets/css/gen.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <script defer src="/src/assets/js/qui_je_suis.js"></script>
 </head>

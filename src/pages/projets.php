@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Théo Vesque - Mes projets</title>
     <link rel="stylesheet" href="/src/assets/css/projets.css">
+    <link rel="stylesheet" href="/src/assets/css/gen.css">
     <script defer src="/src/assets/js/projets.js"></script>
 </head>
 

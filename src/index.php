@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Théo Vesque - Portfolio</title>
   <link rel="stylesheet" href="/src/assets/css/index.css">
+  <link rel="stylesheet" href="/src/assets/css/gen.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script defer="/src/assets/js/index.js"></script>
 </head>

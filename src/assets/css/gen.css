@@ -28,3 +28,9 @@
   margin-top: -2%;
   background-color: var(--jaune);
 }
+
+@media screen and (max-width: 1024px) {
+  #titre {
+    font-size: 42px;
+  }
+}
