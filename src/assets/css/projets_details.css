@@ -1,3 +1,7 @@
+.etiquettes_projets_languages h3 {
+  font-family: "Poppins", sans-serif;
+}
+
 #div_titre_boutonFermer {
   display: flex;
   flex-wrap: wrap;
@@ -10,10 +14,29 @@ sep {
   width: 15em;
 }
 
+sep {
+  margin-top: 0;
+}
+
+.etiquettes_projets_languages {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.etiquettes_projets_languages h3 {
+  background-color: var(--jaune);
+  padding: 1% 2% 1% 2%;
+  margin: 2% 2% 0 0;
+  border-radius: 1vw;
+  font-weight: normal;
+}
+
 /* carrousel */
 
 carousel {
-  width: 100%;
+  width: 80%;
   margin-top: 10%;
   text-align: center;
   font-family: Trebuchet MS;
@@ -23,12 +46,12 @@ carousel {
 carousel page {
   background-color: var(--blanc);
   border-radius: 1vw;
-  margin-top: 35%;
+  margin-top: 45%;
   position: absolute;
   padding: 2%;
   top: 2em;
   left: 6vw;
-  width: 80%;
+  width: 70%;
   transition: transform 0.5s;
   transform: scale(0);
 }
@@ -144,9 +167,9 @@ carousel input[type="radio"]:checked + label {
   overflow: hidden;
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1400px) {
   carousel page {
-    margin-top: 50vh;
+    margin-top: 100vh;
   }
 }
 

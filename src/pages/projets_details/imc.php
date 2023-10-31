@@ -22,6 +22,12 @@
             </button>
         </form>
     </div>
+
+    <div class="etiquettes_projets_languages">
+        <h3>HTML</h3>
+        <h3>CSS</h3>
+        <h3>Javascript</h3>
+    </div>
     <div id=textBio_CV>
         <p id="text_bio"> La principale mission de ce site est de fournir une application web simple et efficace pour calculer l'Indice de Masse Corporelle (IMC) en fonction du poids et de la taille de l'utilisateur. La création de cette plateforme a été une étape clé dans mon parcours de développement, car elle m'a permis d'approfondir mes compétences en programmation JavaScript. Pour plus de détails, vous pouvez explorer la galerie d'images ci-dessous ou accéder directement au site via le lien fourni.</p>
     </div>

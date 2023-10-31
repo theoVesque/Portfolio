@@ -1,7 +1,9 @@
 #titre,
 #button_projet_personnels,
 #button_projet_scolaires,
-#personnels h2 {
+#personnels h2,
+#scolaires h2,
+#h4_confidentialite_scolaires {
   font-family: "Rubik", sans-serif;
 }
 
@@ -24,6 +26,11 @@
   background-color: var(--jaune);
 }
 
+#h4_confidentialite_scolaires {
+  width: 90%;
+  margin-left: 3%;
+}
+
 #div_button_projets {
   margin-top: 10vh;
 }
@@ -37,6 +44,11 @@
   margin-right: 2%;
   margin-bottom: 5vh;
   font-size: 24px;
+}
+
+#button_projet_personnels:hover,
+#button_projet_scolaires:hover {
+  background-color: var(--jaune);
 }
 
 #button_projet_personnels.selected {
@@ -66,7 +78,7 @@
   flex-direction: row;
 }
 
-#personnels > .carte_projet {
+.carte_projet {
   background-color: var(--noir);
   border-radius: 1vw;
   margin-bottom: 5%;
@@ -75,8 +87,8 @@
   width: 45%;
 }
 
-#personnels > .carte_projet > .image_projet > img,
-#personnels > .carte_projet > .image_pas_de_photo {
+.carte_projet > .image_projet > img,
+.carte_projet > .image_pas_de_photo {
   width: 90%;
   border-radius: 1vw;
   display: block;
@@ -93,7 +105,8 @@
   width: 100%;
 }
 
-#personnels h2 {
+#personnels h2,
+#scolaires h2 {
   color: var(--blanc);
   padding: 0% 2% 0% 10%;
 }
@@ -212,7 +225,7 @@
   }
 
   .carte_projet {
-    min-width: 80%;
+    min-width: 98%;
     display: block;
     margin-left: auto;
     margin-right: auto;
