@@ -4,7 +4,7 @@ function tabProjets(projetType) {
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
   }
-  document.getElementById(projetType).style.display = "block";
+  document.getElementById(projetType).style.display = "flex";
 }
 
 // Récupérez les boutons
@@ -17,7 +17,7 @@ function tabProjets(projetType) {
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
   }
-  document.getElementById(projetType).style.display = "block";
+  document.getElementById(projetType).style.display = "flex";
 
   if (projetType === "personnels") {
     buttonPersonnels.classList.add("selected");

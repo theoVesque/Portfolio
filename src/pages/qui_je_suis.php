@@ -12,12 +12,14 @@
 
 <body>
     <h1 id="titre">Théo Vesque</h1>
+    <hr class="sep" />
+
     <div id=textBio_CV>
         <p id="text_bio">
             Je suis actuellement en 3ème année de mon cursus en BUT Informatique à l’Université Polytechnique des Hauts-de-France (UPHF). Cette formation m'a permis d'acquérir un large éventail de <a href="#competences" id="lien_projets_text_bio">compétences</a>, tant dans le domaine du développement Web que du développement logiciel, et je vous invite à découvrir la liste des technologies que je maîtrise dans la section ci-dessous.
         </p>
         <p id="text_bio">
-            Tout au long de mon parcours, j'ai eu l'opportunité de concevoir une variété de <a href="#" id="lien_projets_text_bio">projets</a>, qu'ils soient liés à des travaux scolaires ou à des projets personnels. Parmi mes réalisations, vous trouverez, par exemple, un site web destiné aux étudiants en école d'infirmier, un réseau social de partage de contenu 3D, ou encore une application de gestion du temps inspirée de la technique Pomodoro, visant à accroître la productivité.
+            Tout au long de mon parcours, j'ai eu l'opportunité de concevoir une variété de <a href="/src/pages/projets.php" id="lien_projets_text_bio">projets</a>, qu'ils soient liés à des travaux scolaires ou à des projets personnels. Parmi mes réalisations, vous trouverez, par exemple, un site web destiné aux étudiants en école d'infirmier, un réseau social de partage de contenu 3D, ou encore une application de gestion du temps inspirée de la technique Pomodoro, visant à accroître la productivité.
         </p>
         <p id="text_bio" class="text_bio3">Pour la suite de mes études, je suis à la recherche d'une opportunité de stage au sein d'une entreprise. Mon objectif est de mettre mes compétences au service de cette organisation, tout en continuant d'approfondir mes connaissances dans le domaine informatique. Je suis enthousiaste à l'idée de contribuer de manière significative à des projets professionnels tout en développant mon expertise.</p>
 

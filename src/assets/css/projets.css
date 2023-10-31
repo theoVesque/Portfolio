@@ -1,7 +1,13 @@
 #titre,
 #button_projet_personnels,
-#button_projet_scolaires {
+#button_projet_scolaires,
+#personnels h2 {
   font-family: "Rubik", sans-serif;
+}
+
+.etiquettes_projets_languages h3,
+.button_voir_plus.learn-more .button-text {
+  font-family: "Poppins", sans-serif;
 }
 
 #titre {
@@ -25,10 +31,11 @@
 #button_projet_personnels,
 #button_projet_scolaires {
   border: none;
-  width: 38.9%;
+  width: 40%;
   padding: 1%;
   border-radius: 1vw;
   margin-right: 2%;
+  margin-bottom: 5vh;
   font-size: 24px;
 }
 
@@ -52,4 +59,170 @@
 #scolaires {
   width: 80%;
   background-color: var(--blanc);
+  border-radius: 1vw;
+  padding: 1% 0% 1% 3%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#personnels > .carte_projet {
+  background-color: var(--noir);
+  border-radius: 1vw;
+  margin-bottom: 5%;
+  margin-left: 2%;
+  padding: 2% 0 2% 0;
+  width: 45%;
+}
+
+#personnels > .carte_projet > .image_projet > img,
+#personnels > .carte_projet > .image_pas_de_photo {
+  width: 90%;
+  border-radius: 1vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image_pas_de_photo {
+  background-color: #b4b4b4;
+  padding: 3% 0% 3% 0%;
+}
+
+.image_pas_de_photo svg {
+  width: 100%;
+}
+
+#personnels h2 {
+  color: var(--blanc);
+  padding: 0% 2% 0% 10%;
+}
+
+.etiquettes_projets_languages {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 8%;
+}
+
+.etiquettes_projets_languages h3 {
+  background-color: var(--jaune);
+  padding: 1% 2% 1% 2%;
+  margin: 0 2% 0 2%;
+  border-radius: 1vw;
+  font-weight: normal;
+}
+
+/* Bouton voir plus */
+
+#container_fleche {
+  padding: 10% 0 0 10%;
+}
+.button_voir_plus {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.button_voir_plus.learn-more {
+  width: 12rem;
+  height: auto;
+}
+.button_voir_plus.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: var(--blanc);
+  border-radius: 1.625rem;
+}
+.button_voir_plus.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+.button_voir_plus.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+.button_voir_plus.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid var(--noir);
+  border-right: 0.125rem solid var(--noir);
+  transform: rotate(45deg);
+}
+.button_voir_plus.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: var(--blanc);
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+.button_voir_plus:hover .circle {
+  width: 100%;
+}
+.button_voir_plus:hover .circle .icon.arrow {
+  background: var(--noir);
+  transform: translate(1rem, 0);
+}
+.button_voir_plus:hover .button-text {
+  color: var(--noir);
+}
+@supports (display: grid) {
+  #container_fleche {
+    grid-area: main;
+    align-self: center;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #button_projet_personnels,
+  #button_projet_scolaires {
+    font-size: 16px;
+  }
+
+  .carte_projet {
+    min-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  .etiquettes_projets_languages h3 {
+    font-size: 12px;
+  }
 }
