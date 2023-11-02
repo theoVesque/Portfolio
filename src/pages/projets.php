@@ -17,8 +17,8 @@
 
 
     <div id="div_button_projets">
-        <button id="button_projet_personnels" class="selected" onclick="tabProjets('personnels')">Projets personnels</button>
-        <button id="button_projet_scolaires" onclick="tabProjets('scolaires')">Projets scolaires</button>
+        <button id="button_projet_personnels" class="selected projets-item" onclick="tabProjets('personnels')">Projets personnels</button>
+        <button id="button_projet_scolaires" class="projets-item" onclick="tabProjets('scolaires')">Projets scolaires</button>
     </div>
 
     <!-- POMODORO -->
@@ -36,7 +36,7 @@
                 <h3>CSS</h3>
             </div>
             <div id="container_fleche">
-                <a href="#" class="learn-more button_voir_plus">
+                <a href="#" class="learn-more button_voir_plus projets-item">
                     <span class="circle" aria-hidden="true">
                         <span class="icon arrow"></span>
                     </span>
@@ -57,7 +57,7 @@
                 <h3>Javascript</h3>
             </div>
             <div id="container_fleche">
-                <a href="/src/pages/projets_details/imc.php" class="learn-more button_voir_plus">
+                <a href="/src/pages/projets_details/imc.php" class="learn-more button_voir_plus projets-item">
                     <span class="circle" aria-hidden="true">
                         <span class="icon arrow"></span>
                     </span>
@@ -81,7 +81,7 @@
                 <h3>Javascript</h3>
             </div>
             <div id="container_fleche">
-                <a href="/src/pages/projets_details/quiz.php" class="learn-more button_voir_plus">
+                <a href="/src/pages/projets_details/quiz.php" class="learn-more button_voir_plus projets-item">
                     <span class="circle" aria-hidden="true">
                         <span class="icon arrow"></span>
                     </span>

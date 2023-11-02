@@ -202,6 +202,7 @@
 }
 .button_voir_plus:hover .circle {
   width: 100%;
+  background-color: var(--jaune);
 }
 .button_voir_plus:hover .circle .icon.arrow {
   background: var(--noir);
