@@ -9,7 +9,7 @@
 
 body {
   background-image: url(../images/background.jpg);
-  padding: 5vw;
+  padding: 5vw 5vw 0 5vw;
 }
 
 /* Menu */

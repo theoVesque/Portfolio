@@ -1,0 +1,54 @@
+#infos {
+  font-family: "Rubik", sans-serif;
+  margin-top: 8%;
+}
+
+#infos #tel svg,
+#infos #mail svg {
+  border-radius: 50%;
+  border: 3px solid var(--jaune);
+  height: 38px;
+  width: 38px;
+  margin-bottom: 2%;
+  margin-right: 20px;
+  padding: 0.5%;
+  background-color: var(--noir);
+  transition: all 0.5s ease;
+}
+
+#infos #tel svg::before,
+#infos #mail svg::before {
+  background-color: var(--jaune);
+  height: 2px;
+  box-sizing: border-box;
+  width: 38px;
+}
+
+#infos #tel svg:hover,
+#infos #mail svg:hover {
+  background-color: #ffffff;
+  width: 42px;
+  height: fit-content;
+}
+
+#infos #tel,
+#infos #mail {
+  width: 80%;
+  display: flex;
+  padding: 1% 0 1% 0;
+  flex-wrap: wrap;
+  color: var(--blanc);
+  font-size: 24px;
+}
+
+#infos #tel p,
+#infos #mail p {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  #infos #tel,
+  #infos #mail {
+    font-size: 16px;
+  }
+}
