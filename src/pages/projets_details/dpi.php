@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Théo Vesque - Projets - Application web pour étudiants infirmiers</title>
+    <meta name="description" content="Présentation de ce projet réalisé durant la deuxième année de mon cursus scolaire qui est une application web destinée aux étudiants en école d'infirmier">
     <link rel="stylesheet" href="/src/assets/css/projets_details.css">
     <link rel="stylesheet" href="/src/assets/css/gen.css">
     <script defer src="/src/assets/js/projets_details.js"></script>

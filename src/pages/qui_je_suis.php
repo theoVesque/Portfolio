@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Théo Vesque - Qui je suis ?</title>
+    <meta name="description" content="Bienvenue sur ma page personnelle ! Je suis Théo Vesque, étudiant en informatique, passionné par la programmation, le développement web et les nouvelles technologies. Apprenez à me connaître davantage en parcourant ce site.">
     <link rel="stylesheet" href="/src/assets/css/qui_je_suis.css">
     <link rel="stylesheet" href="/src/assets/css/gen.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">

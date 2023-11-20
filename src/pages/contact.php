@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Théo Vesque - Contact</title>
+    <meta name="description" content="Contactez-moi ! Si vous avez des questions, des opportunités de collaboration ou simplement envie de discuter, n'hésitez pas à me laisser un message. Je suis ouvert aux échanges et aux nouvelles idées.">
     <link rel="stylesheet" href="/src/assets/css/contact.css">
     <link rel="stylesheet" href="/src/assets/css/gen.css">
     <script defer="/src/assets/js/index.js"></script>

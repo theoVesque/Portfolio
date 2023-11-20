@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Théo Vesque - Mes projets</title>
+    <meta name="description" content="Explorez mes projets variés, allant de jeux de quiz et timers Pomodoro à des applications plus complexes telles que des réseaux sociaux et des outils pour les étudiants en école d'infirmiers. Découvrez mon portfolio de réalisations.">
     <link rel="stylesheet" href="/src/assets/css/projets.css">
     <link rel="stylesheet" href="/src/assets/css/gen.css">
     <script defer src="/src/assets/js/projets.js"></script>

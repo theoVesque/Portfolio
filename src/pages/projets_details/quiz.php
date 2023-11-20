@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Théo Vesque - Projets - Jeu de quiz</title>
+    <meta name="description" content="Présentation d'un jeu de culture générale avec des quizs sur différents thèmes.">
     <link rel="stylesheet" href="/src/assets/css/projets_details.css">
     <link rel="stylesheet" href="/src/assets/css/gen.css">
     <script defer src="/src/assets/js/projets_details.js"></script>
