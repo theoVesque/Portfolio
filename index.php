@@ -28,8 +28,8 @@
 
 
   <?php
-  include 'includes/header.html';
-  include 'includes/footer.html';
+  include 'src/includes/header.html';
+  include 'src/includes/footer.html';
   ?>
 </body>
 
