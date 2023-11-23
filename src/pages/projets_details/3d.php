@@ -20,6 +20,7 @@
     <meta name="description" content="Présentation d'un projet réalisation au cours de ma troisième année de mon cursus scolaire qui est un réseau social permettant le partage et l'échange de modèles 3D">
     <link rel="stylesheet" href="/src/assets/css/projets_details.css">
     <link rel="stylesheet" href="/src/assets/css/gen.css">
+    <link rel="shortcut icon" href="/src/assets/images/favicon_io/favicon.ico" type="image/x-icon">
     <script defer src="/src/assets/js/projets_details.js"></script>
 </head>
 

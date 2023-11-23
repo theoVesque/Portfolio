@@ -20,6 +20,7 @@
     <meta name="description" content="Contactez-moi ! Si vous avez des questions, des opportunités de collaboration ou simplement envie de discuter, n'hésitez pas à me laisser un message. Je suis ouvert aux échanges et aux nouvelles idées.">
     <link rel="stylesheet" href="/src/assets/css/contact.css">
     <link rel="stylesheet" href="/src/assets/css/gen.css">
+    <link rel="shortcut icon" href="/src/assets/images/favicon_io/favicon.ico" type="image/x-icon">
     <script defer="/src/assets/js/index.js"></script>
 </head>
 

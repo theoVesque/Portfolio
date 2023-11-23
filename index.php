@@ -20,6 +20,7 @@
   <meta name="description" content="Étudiant en 3ème année de BUT Informatique passionné par le développement web. Découvrez mon parcours, mes compétences et mes projets à travers ce portfolio.">
   <link rel="stylesheet" href="/src/assets/css/index.css">
   <link rel="stylesheet" href="/src/assets/css/gen.css">
+  <link rel="shortcut icon" href="/src/assets/images/favicon_io/favicon.ico" type="image/x-icon">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script defer="/src/assets/js/index.js"></script>
 </head>

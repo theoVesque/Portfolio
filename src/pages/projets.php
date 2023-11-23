@@ -20,6 +20,7 @@
     <meta name="description" content="Explorez mes projets variés, allant de jeux de quiz et timers Pomodoro à des applications plus complexes telles que des réseaux sociaux et des outils pour les étudiants en école d'infirmiers. Découvrez mon portfolio de réalisations.">
     <link rel="stylesheet" href="/src/assets/css/projets.css">
     <link rel="stylesheet" href="/src/assets/css/gen.css">
+    <link rel="shortcut icon" href="/src/assets/images/favicon_io/favicon.ico" type="image/x-icon">
     <script defer src="/src/assets/js/projets.js"></script>
 </head>
 
@@ -44,12 +45,12 @@
             </div>
             <h2>Site de timer Pomodoro</h2>
             <div class="etiquettes_projets_languages">
-                <h3>React</h3>
                 <h3>HTML</h3>
                 <h3>CSS</h3>
+                <h3>Javascript</h3>
             </div>
             <div id="container_fleche">
-                <a href="#" class="learn-more button_voir_plus projets-item">
+                <a href="/src/pages/projets_details/pomodoro.php" class="learn-more button_voir_plus projets-item">
                     <span class="circle" aria-hidden="true">
                         <span class="icon arrow"></span>
                     </span>

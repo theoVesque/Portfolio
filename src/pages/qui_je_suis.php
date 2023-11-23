@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="/src/assets/css/qui_je_suis.css">
     <link rel="stylesheet" href="/src/assets/css/gen.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="shortcut icon" href="/src/assets/images/favicon_io/favicon.ico" type="image/x-icon">
     <script defer src="/src/assets/js/qui_je_suis.js"></script>
 </head>
 

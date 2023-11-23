@@ -20,6 +20,7 @@
     <meta name="description" content="Présentation d'un jeu de culture générale avec des quizs sur différents thèmes.">
     <link rel="stylesheet" href="/src/assets/css/projets_details.css">
     <link rel="stylesheet" href="/src/assets/css/gen.css">
+    <link rel="shortcut icon" href="/src/assets/images/favicon_io/favicon.ico" type="image/x-icon">
     <script defer src="/src/assets/js/projets_details.js"></script>
 </head>
 

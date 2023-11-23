@@ -20,6 +20,7 @@
     <meta name="description" content="Présentation de ce projet réalisé durant la deuxième année de mon cursus scolaire qui est une application web destinée aux étudiants en école d'infirmier">
     <link rel="stylesheet" href="/src/assets/css/projets_details.css">
     <link rel="stylesheet" href="/src/assets/css/gen.css">
+    <link rel="shortcut icon" href="/src/assets/images/favicon_io/favicon.ico" type="image/x-icon">
     <script defer src="/src/assets/js/projets_details.js"></script>
 </head>
 
