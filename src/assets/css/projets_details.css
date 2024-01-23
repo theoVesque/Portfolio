@@ -43,6 +43,7 @@ carousel {
   display: block;
   font-size: 6vmin;
 }
+
 carousel page {
   background-color: var(--blanc);
   border-radius: 1vw;
@@ -55,6 +56,11 @@ carousel page {
   transition: transform 0.5s;
   transform: scale(0);
 }
+
+#carousel-robindesbus page {
+  margin-top: 60%;
+}
+
 carousel page div {
   margin-bottom: 3%;
 }
@@ -168,13 +174,15 @@ carousel input[type="radio"]:checked + label {
 }
 
 @media screen and (max-width: 1400px) {
-  carousel page {
+  carousel page,
+  #carousel-robindesbus page {
     margin-top: 100vh;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  carousel page {
+  carousel page,
+  #carousel-robindesbus page {
     margin-top: 80vh;
   }
 }
@@ -185,7 +193,8 @@ carousel input[type="radio"]:checked + label {
     align-items: start;
   }
 
-  carousel page {
+  carousel page,
+  #carousel-robindesbus page {
     margin-top: 130vh;
   }
 }
