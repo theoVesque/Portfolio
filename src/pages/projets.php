@@ -40,10 +40,8 @@
     <div id="personnels" class="w3-container projet">
         <!-- BLOG DE SPORT -->
         <div class="carte_projet">
-            <div class="image_pas_de_photo">
-                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24">
-                    <path fill="none" stroke="#0e0e0e" d="m.5.5l9.857 9.857M23.5 23.5l-6.857-6.857M9.5 13a4.5 4.5 0 0 0 4.5 4.5m-11-8h3m-3-3H.5v14H17M6.5 6.5h1a3 3 0 0 0 3-3h7a3 3 0 0 0 3 3h3v11a3 3 0 0 1-3 3M10.357 10.357a4.5 4.5 0 1 1 6.285 6.285m-6.285-6.285l6.286 6.286" />
-                </svg>
+            <div class="image_projet">
+                <img src="/src/assets/images/projets/blog_sport1.png" alt="Image du projet de blog de sport">
             </div>
             <h2>Blog de sport</h2>
             <div class="etiquettes_projets_languages">
